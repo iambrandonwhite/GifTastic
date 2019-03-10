@@ -13,3 +13,6 @@ Instructions: Search for any movie.
 
 # Author
 Brandon White - https://github.com/iambrandonwhite
+
+#Check out the site in the link below!
+https://iambrandonwhite.github.io/GifTastic/ 
