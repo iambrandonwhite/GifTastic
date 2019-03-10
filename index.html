@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GifTastic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Link to reset CSS-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!--Link to Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+    <!--Link to Bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Link to jQuery Library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Link to JavaScript File-->
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <!--Existing Movie Buttons Array-->
+            <div class="col-md-6">
+                <p><strong>Suggested Movie:</strong></p>
+                <div id="moviesGroup"></div>
+            </div>
+
+            <!--User Form and Submit Button-->
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Enter Your Movie:</label>
+                        <input id="newMoviesInput" type="text" class="form-control" placeholder="Movie?">
+                        <button id="addMoviesBtn" class="btn btn-primary mb-2" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <!--Populate New GIFs-->
+            <div class="col-md-12">
+                <div id="gifContainer"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
